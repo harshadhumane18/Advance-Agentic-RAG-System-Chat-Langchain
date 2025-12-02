@@ -1,0 +1,65 @@
+langchain
+langchain-community
+langchain-google-genai
+langchain-text-splitters
+langgraph
+langgraph[sqlite]
+
+
+faiss-cpu
+beautifulsoup4
+requests
+python-dotenv
+pydantic
+pydantic-settings
+
+# Data processing
+pandas
+numpy
+
+# Web scraping
+scrapy
+selenium
+lxml
+
+# Utilities
+tqdm
+loguru
+
+# Testing
+pytest
+pytest-asyncio
+
+requests
+
+# Add these to requirements.txt:
+
+# Async support
+aiohttp>=3.8.0
+asyncio-throttle>=1.0.0
+
+
+# Additional LangChain components
+langchain-core>=0.1.0
+langchain-openai>=0.1.0  # For fallback models
+
+# Streaming support
+sse-starlette>=1.6.0
+websockets>=11.0.0
+
+# API framework (if you want FastAPI)
+fastapi>=0.100.0
+uvicorn>=0.23.0
+
+# Additional utilities
+python-multipart>=0.0.6
+httpx>=0.24.0
+
+# API Server Dependencies
+fastapi>=0.100.0
+uvicorn[standard]>=0.23.0
+websockets>=11.0.0
+python-multipart>=0.0.6
+httpx>=0.24.0
+
+tenacity
