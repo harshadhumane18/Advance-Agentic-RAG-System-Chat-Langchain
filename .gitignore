@@ -256,3 +256,72 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# My added
+faiss_index
+faiss_metadata.pkl
+logs/
+data/raw/
+data/processed/
+data/faiss_index/
+data/faiss_metadata.pkl/
+data/faiss_index/
+
+
+# Next.js / Frontend specific
+.next/
+out/
+build/
+dist/
+.turbo/
+.vercel/
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Frontend dependencies (already have node_modules, but add these)
+.pnp
+.pnp.js
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# LangGraph / LangChain specific
+checkpoints/
+*.checkpoint
+langgraph.db
+langgraph_checkpoint.db
+
+# Vector store files (more comprehensive)
+**/faiss_index/
+**/faiss_metadata.pkl
+**/chroma_db/
+**/weaviate_data/
+*.index
+*.index.faiss
+
+# API keys and secrets (more comprehensive)
+*.key
+*.pem
+secrets/
+credentials/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# OS specific (Windows)
+*.lnk
+Desktop.ini
+$RECYCLE.BIN/
+
+# IDE - Cursor specific (already have .cursorignore, but add)
+.cursor/
+
+# Project data directories
+agentic-rag-system/data/
+agentic-rag-system/logs/
